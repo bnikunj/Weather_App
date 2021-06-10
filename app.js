@@ -42,7 +42,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&units=&
   var descValue = data['weather'][0]['description'];
   var windValue = data['wind']['speed'];
   var humidityValue = data['main']['humidity'];
-  document.body.style.backgroundImage = "url('https://source.unsplash.com/weekly?"+nameValue+"')"; 
+  document.body.style.backgroundImage = "url('https://source.unsplash.com/1600×900/weekly?"+nameValue+"')"; 
 
 
   main.innerHTML = nameValue+","+countryValue;
