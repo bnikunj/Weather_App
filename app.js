@@ -75,7 +75,7 @@ function dateFunction (d) {
   }
 
 button.addEventListener('click', function(name){
-fetch('http://api.openweathermap.org/data/2.5/forecast?q='+input.value+'&appid=17edac85e0890235a88c87f855d6bf89')
+fetch('https://api.openweathermap.org/data/2.5/forecast?q='+input.value+'&appid=17edac85e0890235a88c87f855d6bf89')
 .then(response => response.json())
 .then(data => {
     console.log(data);
